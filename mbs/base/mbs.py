@@ -5,6 +5,8 @@
 #period.
 
 ################################################################################
+from ..utils.cash_flow_tooling import calc_payment_dates
+
 
 class MBS:
     #MBS class with information regarding collateral face value and coupon
